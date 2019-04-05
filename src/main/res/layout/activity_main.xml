@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/rlup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/dudu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@drawable/duudufar"
+            android:text="Dudu" />
+
+        <TextView
+            android:id="@+id/dudname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="Dudu Faruk"
+            android:textColor="@color/yellow"
+            android:textSize="35sp" />
+
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dudu"
+
+            android:layout_marginTop="2dp"
+            android:gravity="center_horizontal"
+            android:text="lama_kahazak@dudufar.com\n(+972)505555555"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/hobbys"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/details"
+            android:layout_marginTop="7dp"
+            android:text="Hobbys: SUU hobbys? Just a singer!"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="match_parent"
+            android:layout_height="93dp"
+            android:layout_below="@id/hobbys"
+            android:layout_marginTop="0dp"
+            android:background="#c55"
+            android:fontFamily="casual"
+            android:text="I Like It !!"
+            android:textColor="#f0f0f0"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/cntLikes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btn"
+            android:textSize="28sp"
+            android:text=" Likes"
+            android:layout_marginTop="11dp"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            />
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>
+
